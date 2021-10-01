@@ -1,4 +1,5 @@
 
+
 @import url(animations.css);
 @import url("popup.css");
 
@@ -40,5 +41,16 @@ body {
 
 }
 
+.spicy {
+width: 120px;
 
+}
+.main {
+    display: flex;
+    flex-direction: row;
+}
+.add {
+    flex: 3;
+}
   
+
