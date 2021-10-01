@@ -1,7 +1,9 @@
-
-
 @import url(animations.css);
 @import url("popup.css");
+
+* {
+    border: 2px solid black;
+}
 
 body {
     padding: 0;
@@ -15,7 +17,7 @@ body {
 }
 
 .spicy {
-width: 120px;
+width: 30%;
 
 }
 .main {
@@ -25,5 +27,15 @@ width: 120px;
 .add {
     flex: 3;
 }
-  
-
+.friends{
+    display:flex;
+}
+.friends__first{
+    width: 300px;
+}
+.friends__second{
+    width:150px;
+}
+.friends__third{
+    width:45px;
+}
