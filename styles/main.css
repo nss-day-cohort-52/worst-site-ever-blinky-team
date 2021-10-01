@@ -1,5 +1,7 @@
 @import url(animations.css);
-
+*{
+    border: solid 2px darkgoldenrod;
+}
 
 
 .title{
@@ -21,4 +23,15 @@
     animation-name: tremble;
     animation-iteration-count: infinite;
     animation-duration: 2s;
+}
+
+.ads{
+    animation-name: intensifies;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+.content{
+    display:flex;
+    flex-wrap: nowrap;
+
 }
