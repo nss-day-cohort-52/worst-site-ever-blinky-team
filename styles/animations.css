@@ -2,7 +2,7 @@
 
     0% {
       transform: rotateZ(0deg);
-      width:
+    
     }
   
     10% {
@@ -388,3 +388,29 @@
         }
       }
 
+      .petSpace{
+        animation-name:fontalicious;
+        animation-iteration-count: infinite;
+        animation-duration: 1s;
+    }
+    
+    
+    .spicyPic{
+        animation-name: twister;
+        animation-iteration-count: infinite;
+        animation-duration: 7s;
+        width: 15rem;
+    
+    }
+    
+    .title__top{
+        animation-name: tremble;
+        animation-iteration-count: infinite;
+        animation-duration: 2s;
+    }
+    
+    .side{
+        animation-name: intensifies;
+        animation-duration: 7s;
+        animation-iteration-count: infinite;
+    }
