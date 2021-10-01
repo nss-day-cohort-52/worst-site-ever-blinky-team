@@ -1,0 +1,12 @@
+.spicy {
+width: 120px;
+
+}
+.main {
+    display: flex;
+    flex-direction: row;
+}
+.add {
+    flex: 3;
+}
+
