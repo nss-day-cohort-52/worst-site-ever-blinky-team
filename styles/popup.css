@@ -1,0 +1,128 @@
+@keyframes slide-left  {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes slide-right  {
+    from {
+        transform:translateX(0%)
+    }
+    to {
+        transform: translateX(100%);
+    }
+}
+
+@keyframes slide-up {
+    from {
+        transform:translateY(0%)
+    }
+    to {
+        transform: translateY(-100%);
+    }
+}
+
+@keyframes slide-down  {
+    from {
+        transform:translateY(0%)
+    }
+    to {
+        transform: translateY(100%);
+    }
+}
+
+.popup {
+    width: 33.3%;
+    height: 50%;
+    font-size: 40px;
+    font-weight: bold;
+    place-content: center;
+    display: grid;
+    position: relative;
+
+    
+  }
+
+  #pop1 {
+    text-align:left;
+    background-color: rgb(240, 2, 212);
+    border: 10px double green;
+    color: rgb(0, 123, 189);
+    animation: slide-left 25s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+  }
+
+  #pop2 {
+    text-align:left;
+    background-color: rgb(68, 222, 249);
+    border: 10px double rgb(99, 7, 0);
+    color: rgb(96, 47, 4);
+    animation: slide-left 25s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    position: absolute;
+    left: 0%;
+    top: 50%;
+  }
+
+  #pop3 {
+    text-align:center;
+    background-color: rgb(200, 240, 2);
+    border: 10px double rgb(79, 53, 13);
+    color: rgb(189, 0, 189);
+    animation: slide-up 25s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    position: absolute;
+    left: 33.33%;
+    top: 0%;
+    padding: 10px
+  }
+
+  #pop4 {
+    text-align:left;
+    background-color: rgb(97, 165, 0);
+    border: 10px double rgb(144, 205, 0);
+    color: rgb(189, 0, 129);
+    animation: slide-down 25s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    position: absolute;
+    left: 33.33%;
+    top: 50%;
+  }
+
+  #pop5 {
+    text-align:center;
+    background-color: rgb(240, 133, 2);
+    border: 10px double rgb(0, 128, 109);
+    color: rgb(25, 189, 0);
+    animation: slide-right 25s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    position: absolute;
+    left: 66.66%;
+    top: 0%;
+  }
+
+  #pop6 {
+    text-align:right;
+    background-color: rgb(232, 0, 35);
+    border: 10px double rgb(255, 102, 255);
+    color: rgb(249, 173, 11);
+    animation: slide-right 25s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    position: absolute;
+    left: 66.66%;
+    top: 50%;
+  }
+
+  
