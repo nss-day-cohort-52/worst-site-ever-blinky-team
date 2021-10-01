@@ -1,3 +1,46 @@
+
+
+@import url(animations.css);
+@import url("popup.css");
+
+body {
+    padding: 0;
+    margin: 0;
+  }
+
+
+.title{
+    animation-name:fontalicious;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+}
+
+
+.spicyPic{
+    animation-name: twister;
+    animation-iteration-count: infinite;
+    animation-duration: 7s;
+    width: 15rem;
+
+}
+
+.title__top{
+    animation-name: tremble;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+.ads{
+    animation-name: intensifies;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+.content{
+    display:flex;
+    flex-wrap: nowrap;
+
+}
+
 .spicy {
 width: 120px;
 
@@ -9,4 +52,5 @@ width: 120px;
 .add {
     flex: 3;
 }
+  
 
