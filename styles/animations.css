@@ -388,7 +388,7 @@
         }
       }
 
-      .petSpace{
+    .petSpace{
         animation-name:fontalicious;
         animation-iteration-count: infinite;
         animation-duration: 1s;
@@ -413,4 +413,10 @@
         animation-name: intensifies;
         animation-duration: 7s;
         animation-iteration-count: infinite;
+    }
+
+    .popups{
+      animation-name: fontalicious;
+      animation-iteration-count: infinite;
+      animation-duration: 3s;
     }
