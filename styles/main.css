@@ -1,7 +1,11 @@
+
 @import url(animations.css);
-*{
-    border: solid 2px darkgoldenrod;
-}
+@import url("popup.css");
+
+body {
+    padding: 0;
+    margin: 0;
+  }
 
 
 .title{
@@ -35,3 +39,6 @@
     flex-wrap: nowrap;
 
 }
+
+
+  
