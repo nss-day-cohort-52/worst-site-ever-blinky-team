@@ -1,0 +1,29 @@
+.friends {
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(0, 65, 65);
+}
+
+.friends__title {
+    background-color: rgba(223, 136, 60, 0.947);
+}
+
+.friends__imgs{
+    display:flex;
+    flex-direction: row;
+    background-color: rgba(223, 136, 60, 0.947);
+}
+
+.friends__first{
+    width: 300px;
+    background-color: rgba(223, 136, 60, 0.947);
+}
+.friends__second{
+    width:150px;
+    height: 200px;
+    background-color: rgba(223, 136, 60, 0.947);
+}
+.friends__third{
+    width:60px;
+    height: 200px;
+}
