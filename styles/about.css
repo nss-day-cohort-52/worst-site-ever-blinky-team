@@ -1,0 +1,45 @@
+@keyframes shake  {
+    0% {
+        transform:translateX(0%)
+    }
+    25% {
+        transform: translateX(100%);
+    }
+    50% {
+        transform:translateX(0%);
+    }
+    75% {
+        transform:translateX(200%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+.about {
+    font-size: 20px;
+}
+
+.about__picture {
+    width: 20%;
+    background-color: white;
+    padding: 10px;
+    animation: shake 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+ }
+.about__name {
+    background-color: white;
+    width: fit-content;
+    animation: shake 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+.about__description {
+    background-color: white;
+    width: fit-content;
+}
+.about__age {
+    background-color: white;
+    width: fit-content;
+}
