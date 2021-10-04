@@ -1,18 +1,15 @@
 @import url(animations.css);
 @import url("popup.css");
 
-* {
+/* * {
     border: 2px solid black;
-}
+} */
 
 body {
     padding: 0;
     margin: 0;
     color: orange;
-    -moz-background-clip: padding-box;
-
     background-color: rgb(238, 104, 209);
-    background-attachment:;
 
   }
 
@@ -37,6 +34,7 @@ width: 30%;
 .add {
     flex: 3;
     background-color: yellowgreen;
+    color:darkblue;
 }
 .friends{
     display:flex;
